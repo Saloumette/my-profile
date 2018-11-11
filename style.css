@@ -1,0 +1,67 @@
+/* Colors and fonts*/ 
+body {
+	background-color: rgb(230, 200, 250);
+	color: black;
+	font-family: 'Rosario', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Krub', sans-serif;
+}
+h1 {
+	color: black; 
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 40px;
+	font-weight: 900;
+}
+h2 {
+	color: black;
+	font-weight: 80;
+	letter-spacing: 2px;
+	font-size: 35px;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: blue 
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	padding: 10px;
+
+}
+
+@media (max-width: 760px) 
+{ .container { 
+	width: 600px }
+}
+
+
+@media (max-width: 500px) 
+{ .container { 
+	width: 400px }
+}
+
+
+.card-white {
+	background-color: white;
+	margin: 50px auto; 
+	padding: 70px auto; 
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1)
+}
+
+
+.img-circle{
+	border-radius: 50%;
+}
+
+
+
